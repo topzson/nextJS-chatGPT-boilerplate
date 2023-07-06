@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
 
+import { useEffect, useState } from "react";
 
 function MessageItem({message}) {
   const [text, setText] = useState(message.author === "human" ? message.text : "");
